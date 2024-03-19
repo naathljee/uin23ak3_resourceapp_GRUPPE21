@@ -1,0 +1,13 @@
+// variabler for farger og fonts
+$font-stack: 'Montserrat', 'Roboto';
+$background-color: #c3cbdb;
+$text-color: #2a324b;
+$tab-background-color: #2a324b;
+$hover-color: #fff;
+
+
+body {
+    font-family: $font-stack;
+    max-width: fit-content;
+    background: $background-color;
+}
