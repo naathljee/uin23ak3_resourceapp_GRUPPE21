@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import RessursArkiv from './RessursArkiv'; // importerer ressursarkiv-appen
+import './styles/style.css'; // importerer komprimert css fil fra sass
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
