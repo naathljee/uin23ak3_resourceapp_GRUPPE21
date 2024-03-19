@@ -5,6 +5,7 @@ import './styles/style.css'; // importerer komprimert css fil fra sass
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RessursArkiv />
   </React.StrictMode>,
-)
+
+); 
