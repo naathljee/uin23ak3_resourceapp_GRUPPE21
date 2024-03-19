@@ -3,7 +3,7 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import NavBar from './Components/NavBar'
 import Tabinnhold from './Components/Tabinnhold'
-import { resources } from './Components/resources'
+import { resources } from './Components/ResourceMap'
 
 function RessursArkiv() {
 
