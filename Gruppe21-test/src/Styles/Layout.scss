@@ -11,3 +11,18 @@ body {
     max-width: fit-content;
     background: $background-color;
 }
+
+.meny-fane {
+    list-style-type: none;
+    display: flex;
+    background-color: $tab-background-color;
+    max-width: fit-content;
+
+
+    .meny-fane-valg {
+        color: $hover-color;
+        cursor: pointer;
+        border-left: 10px solid $background-color;
+        text-transform: uppercase;
+    }
+}
