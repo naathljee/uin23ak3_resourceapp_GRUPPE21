@@ -1,7 +1,7 @@
 import React from 'react';
 
 // funksjon for å mappe arrayen med ressurser og skrive det ut til et listeelement 
-function ResourceList({ resources }) {
+function ResourceMap({ resources }) {
 
 
 // funksjonen mapper hver ressurs til et listeelement 
@@ -17,4 +17,4 @@ function ResourceList({ resources }) {
   );
 }
 
-export default ResourceList;
+export default ResourceMap;

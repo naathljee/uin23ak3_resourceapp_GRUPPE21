@@ -6,6 +6,7 @@ import { NavLink } from 'react-router-dom';
 // funksjon for å liste de ulike valg elementene med NavLink fra react router dom 
 function NavBar() {
 
+
 // returnerer en liste med linker for hver kategori  og en if test for å sjekke etter active tab
   return (
     <ul className="meny-fane">

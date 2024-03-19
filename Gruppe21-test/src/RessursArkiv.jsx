@@ -2,8 +2,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
-import TabContent from './components/TabContent'
-import { resources } from './components/Resources'
+import <Tabinnhold>from './components/Tabinnhold'
+import { resources } from './components/resources'
+import Tabinnhold from './components/Tabinnhold'
 
 function RessursArkiv() {
 
@@ -18,11 +19,11 @@ function RessursArkiv() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="/html" element={<TabContent {...getResourceData('HTML')} />} />
-        <Route path="/css" element={<TabContent {...getResourceData('CSS')} />} />
-        <Route path="/javascript" element={<TabContent {...getResourceData('Javascript')} />} />
-        <Route path="/react" element={<TabContent {...getResourceData('react')} />} />
-        <Route path="/sanity" element={<TabContent {...getResourceData('sanity')} />} />
+        <Route path="/html" element={<Tabinnhold {...getResourceData('HTML')} />} />
+        <Route path="/css" element={<Tabinnhold {...getResourceData('CSS')} />} />
+        <Route path="/javascript" element={<Tabinnhold {...getResourceData('Javascript')} />} />
+        <Route path="/react" element={<Tabinnhold {...getResourceData('react')} />} />
+        <Route path="/sanity" element={<Tabinnhold {...getResourceData('sanity')} />} />
       </Routes>
     </Router>
   )
