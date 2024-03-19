@@ -1,9 +1,9 @@
 
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import NavBar from './components/NavBar'
-import Tabinnhold from './components/Tabinnhold'
-import { resources } from './components/resources'
+import NavBar from './Components/NavBar'
+import Tabinnhold from './Components/Tabinnhold'
+import { resources } from './Components/resources'
 
 function RessursArkiv() {
 
