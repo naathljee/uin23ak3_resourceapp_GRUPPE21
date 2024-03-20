@@ -55,4 +55,19 @@ body {
   padding: 0.5rem;
   font-family: "Roboto";
   letter-spacing: 1px;
+}
+
+#navbarlinks {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+#navbarlinks:hover {
+  background-color: #fff;
+}
+
+#navbarlinks:hover {
+  color: #2a324b;
 }/*# sourceMappingURL=Layout.css.map */
