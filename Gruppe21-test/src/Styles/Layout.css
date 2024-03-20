@@ -9,7 +9,6 @@ body {
 .meny-fane {
   list-style-type: none;
   display: flex;
-  background-color: #2a324b;
   max-width: -moz-fit-content;
   max-width: fit-content;
 }
@@ -59,7 +58,9 @@ body {
 #navbarlinks {
   text-decoration: none;
   color: #fff;
-  padding: 20px;
+  background: #2a324b;
+  padding: 10px;
+  margin: 2rem;
   text-transform: uppercase;
 }
 

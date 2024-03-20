@@ -16,7 +16,6 @@ body {
 .meny-fane {
     list-style-type: none;
     display: flex;
-    background-color: $tab-background-color;
     max-width: fit-content;
 
 
@@ -67,7 +66,9 @@ body {
 #navbarlinks {
     text-decoration: none;
     color: #fff;
-    padding: 20px;
+    background: $tab-background-color;
+    padding: 10px;
+    margin: 2rem;
     text-transform: uppercase;
 
 }
