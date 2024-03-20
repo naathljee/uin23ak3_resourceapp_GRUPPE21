@@ -70,4 +70,12 @@ body {
 
 #navbarlinks:hover {
   color: #2a324b;
+}
+
+#navbarlinks.active-tab {
+  color: #2a324b;
+}
+
+ul.meny-fane {
+  padding: 10px;
 }/*# sourceMappingURL=Layout.css.map */

@@ -81,3 +81,13 @@ body {
 #navbarlinks:hover {
     color: $text-color;
 }
+
+// gjør om farge på active tab
+#navbarlinks.active-tab {
+    color: $text-color
+}
+
+// adder litt padding på meny fanen
+ul.meny-fane {
+    padding: 10px;
+}
