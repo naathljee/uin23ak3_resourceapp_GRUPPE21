@@ -60,6 +60,8 @@ body {
   color: #fff;
   background-color: #2a324b;
   padding: 26.5px;
+  padding-right: 2rem;
+  padding-left: 2rem;
   margin: 1rem;
   text-transform: uppercase;
   font-weight: 700;
