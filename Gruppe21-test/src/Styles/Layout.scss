@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 // variabler for farger og fonts
 $font-stack: 'Montserrat', 'Roboto';
 $background-color: #c3cbdb;
@@ -7,10 +9,9 @@ $hover-color: #fff;
 
 
 body {
-    font-family: $font-stack;
-    max-width: fit-content;
     margin: 8rem;
-    background: $background-color;
+    font-family: $font-stack;
+    background-color: $background-color;
 }
 
 .meny-fane {

@@ -1,9 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 body {
-  font-family: "Montserrat", "Roboto";
-  max-width: -moz-fit-content;
-  max-width: fit-content;
   margin: 8rem;
-  background: #c3cbdb;
+  font-family: "Montserrat", "Roboto";
+  background-color: #c3cbdb;
 }
 
 .meny-fane {
