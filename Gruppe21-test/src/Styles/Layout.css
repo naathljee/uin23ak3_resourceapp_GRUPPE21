@@ -17,4 +17,42 @@ body {
   cursor: pointer;
   border-left: 10px solid #c3cbdb;
   text-transform: uppercase;
+}
+
+.active-tab,
+.meny-innhold {
+  background-color: #fff;
+  color: #2a324b;
+  padding: 2%;
+}
+
+.meny-innhold h2 {
+  text-align: center;
+  font-family: "Roboto";
+  text-align: justify;
+  letter-spacing: 2px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  text-shadow: 0.1px 0.1px;
+}
+
+.meny-innhold a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.meny-innhold p {
+  font-family: "Roboto";
+  text-align: justify;
+  letter-spacing: 2px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  text-shadow: 0.1px 0.1px;
+}
+
+.meny-innhold ul li {
+  list-style-type: none;
+  padding: 0.5rem;
+  font-family: "Roboto";
+  letter-spacing: 1px;
 }/*# sourceMappingURL=Layout.css.map */
