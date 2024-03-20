@@ -66,9 +66,9 @@ body {
 #navbarlinks {
     text-decoration: none;
     color: #fff;
-    background: $tab-background-color;
-    padding: 10px;
-    margin: 2rem;
+    background-color: $tab-background-color;
+    padding: 26.5px;
+    margin: 1rem;
     text-transform: uppercase;
 
 }
@@ -77,7 +77,8 @@ body {
 
 // gjør om farge på active tab
 #navbarlinks.active-tab {
-    color: $text-color
+    color: $text-color;
+    background-color: $hover-color;
 }
 
 // adder litt padding på meny fanen
