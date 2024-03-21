@@ -75,4 +75,31 @@ body {
 
 ul.meny-fane {
   padding: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    padding: 2rem;
+    width: 100%;
+  }
+  .meny-fane {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    padding: 0;
+  }
+  .meny-fane-valg {
+    font-size: 14px;
+    margin: 5px;
+  }
+  .meny-innhold {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #navbarlinks {
+    padding: 1rem;
+  }
+  li {
+    padding: 1rem;
+  }
 }/*# sourceMappingURL=Layout.css.map */
