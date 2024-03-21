@@ -9,15 +9,15 @@ $hover-color: #fff;
 
 
 body {
-    margin: 8rem;
+    padding: 1rem;
     font-family: $font-stack;
     background-color: $background-color;
 }
 
 .meny-fane {
     list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(5, auto);
+    display: flex;
+    justify-content: space-evenly;
     padding: 10px;
     margin-left: 0;
 
