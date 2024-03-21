@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 body {
-  padding: 1rem;
+  padding: 8rem;
+  width: 80%;
   font-family: "Montserrat", "Roboto";
   background-color: #c3cbdb;
 }
@@ -11,6 +12,7 @@ body {
   justify-content: space-evenly;
   padding: 10px;
   margin-left: 0;
+  align-items: flex-end;
 }
 .meny-fane .meny-fane-valg {
   font-weight: 700;
@@ -60,9 +62,8 @@ body {
   color: #fff;
   background-color: #2a324b;
   padding: 26.5px;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  margin: 1rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
   text-transform: uppercase;
   font-weight: 700;
 }
